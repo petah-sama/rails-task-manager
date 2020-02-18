@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsTaskManager</title>
+    <title>HIMYMTaskManager</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/184ab92a5e.js" crossorigin="anonymous"></script>
+
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="font-family: 'Lacquer', sans-serif;">
     <%= yield %>
   </body>
 </html>
